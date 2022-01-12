@@ -79,6 +79,8 @@ def classify(document: str, model, clean: clean_type, featurize: List[featurize_
   pass
 ```
 
+You are welcome to add your own parameters if you document them carefully. For example, if you want to compare Multinomial Naive Bayes to Binary Multinomial Naive Bayes.
+
 ## Feature Extraction ![Derivative Work](https://img.shields.io/badge/DerivativeWork-%313A55.svg?)
 
 Implement `bag-of-words` features. This means that an input document (review or sms), has the feature `word_cat` if it contains one or more instances of the word `"cat"` regardless of location or how many times the word occurs. You should additionally implement at least 3 different classes of features. Some possibilities are part-of-speech, punctuation, ngrams, or document length. Think about how you would use these concepts. For example, the important part of document length could be as number of letters, words, sentences, or just some binary measure of whether the document is "long" or "short". You will want to clean your data before you run your feature extraction.
