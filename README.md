@@ -1,7 +1,7 @@
 # Assignment 2 - Naive Bayes
 > Implement Naive Bayes for Sentiment Analysis and Spam Filtering
 
-In this assignment you will implement a Naive Bayes classifier, described in [Chapter 4 of J&M](https://web.stanford.edu/~jurafsky/slp3/4.pdf), to perform sentiment analysis of IMDB reviews and spam detection on emails. You will implement simple **baseline algorithms** to compare your classifiers against. You will also select features to attempt to improve the performance of your classifiers.
+In this assignment you will implement a Naive Bayes classifier, described in [Chapter 4 of J&M](https://web.stanford.edu/~jurafsky/slp3/4.pdf), to perform sentiment analysis of IMDB reviews and spam detection on sms. You will implement simple **baseline algorithms** to compare your classifiers against. You will also select features to attempt to improve the performance of your classifiers.
 
 You *may* refer to online tutorials in order to implement your classifier and feature extraction, but your implementation must provide the interface described in this document and all sources must be cited in comments.
 
