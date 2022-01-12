@@ -53,6 +53,8 @@ Your final implementation for Naive Bayes should have the following two function
 ```python
 from typing import Callable, List, Tuple
 
+# Note that a Callable type is a function
+
 feature_list_type = List[str] # if you want to use vectors, you can change this type
 # featurizer should take a list of strings (tokens) and return a list of features
 featurize_type = Callable[[List[str]], feature_list_type]
