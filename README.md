@@ -65,6 +65,7 @@ train_type = List[Tuple[str, int]]
 # python allows you to treat an uncalled function as a variable.
 def learn(data : train_type, clean: clean_type, featurize: List[featurize_type]):
   # learn from data and return a model
+  # the following code is just a suggestion. The slides present a more efficient approach.
   for document, cls in data: # iterate over the data
     document = clean(document) # clean the document
     features = []
