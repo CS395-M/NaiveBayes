@@ -111,13 +111,23 @@ Your baseline classifier should use only the prior probability to predict the cl
 For your two datasets, compare accuracy, precision, and recall to the corresonding baselines. How do your different cleaning methods and features affect performance? Remember, since naive bayes assumes conditional independnce, you don't have to train a new model if you want to remove a feature...
 
 ## Grading 
-### ? ⭐️ - the number of stars required for an A.
+### 10 ⭐️ - the number of stars required for an A.
 
 > I will keep track of stars accumulated from assignments instead of some arbitrary percentages. I may offer more stars than are necessary for an A. Anything labelled with a ⚠️ is a hard requirement that I will not make up for with extra credit/bonuses.
 
 - ⚠️ Your code should be well commented and any references you use should be listed in comments. If you forget to keep track of the references, try your best to list them at the bottom.
 - ⚠️ Your assignment is submitted within a week of the deadline
 
-- ⭐️
+- ⭐️⭐️ Construct a conditional probability table in your `learn()` function using plus-one smoothing
+- ⭐️ Apply your classifier in your `classify()` function
+- ⭐️ Write a function to clean your data
+- ⭐️⭐️ Write 3 feature extraction functions on top of bag-of-words
+- ⭐️ Implement baseline algorithms which select the most frequent class for each task
+- ⭐️⭐️⭐️ Compose and test multiple configurations of features/cleaning/counting methods for both sentiment analysis and spam detection and provide a thorough writeup comparing accuracy, precision, and recall
 
 ### Bonuses
+- ⭐️ Implement additional features
+- ⭐️ Implement multiple possible cleaning functions
+
+## Submission
+When committing your final submission, ensure your commit message includes, in caps, the word `DONE`. If you are not done, submit the work you have already completed with a note indicating that you intend to continue working. Commit your work often to github so that I can see the progress you are making. 
